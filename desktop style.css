@@ -1,0 +1,34 @@
+
+@media ( min-width:1024px){ 
+.main
+{
+    background-color : lightgreen ;
+    color:darkgreen
+   
+}
+}
+
+@media (min-width:768px) and (max-width:1023px){ 
+    .main
+    {
+        background-color : lightblue ;
+        color: darkblue;
+        
+    }
+    }
+    
+@media (min-width:540px) and (max-width:767px){ 
+    .main
+    {
+        background-color : lightcoral ;
+        color:darkred;
+    }
+    }
+    
+@media (max-width:540px){ 
+    .main
+    {
+        background-color : darksalmon ;
+        color:yellow;
+    }
+    }
